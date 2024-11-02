@@ -30,7 +30,7 @@ public final class Benchmark {
         long startTime = System.nanoTime();
 
         int count = 0;
-        for (int i=1; i<=10000; i++) {
+        for (int i=1; i<=100_000; i++) {
             matcher.reset(data).matches();
             while (matcher.find()) {
                 //System.out.println(data.substring(matcher.start(), matcher.end()));
