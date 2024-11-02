@@ -3,21 +3,7 @@ import java.util.regex.Pattern;
 
 public final class Benchmark {
 
-    static String data = """
-        URLs:
-        http://www.google.com
-        https://www.google.com
-        http://google.com
-        https://google.com
-        http://www.google.com/
-        https://www.google.com/
-        http://google.com/
-        https://google.com/
-        http://www.google.com/index.html
-        https://www.google.com/index.html
-        http://google.com/index.html
-        https://google.com/index.html
-        """;
+    static String data = "URLs:\nhttp://www.google.com\nhttps://www.google.com\nhttp://google.com\nhttps://google.com\nhttp://www.google.com/\nhttps://www.google.com/\nhttp://google.com/\nhttps://google.com/\nhttp://www.google.com/index.html\nhttps://www.google.com/index.html\nhttp://google.com/index.html\nhttps://google.com/index.html";
 
     public static void main(String... args) {
         //System.out.println(data);
